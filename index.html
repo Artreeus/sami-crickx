@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crickx</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="images/mainlogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar section -->   
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light w-75 m-auto">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/mainlogo.png" class="w-50" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <img src="images/Facebook.png" class="pe-4" alt="">
+                </li>
+                <li class="nav-item">
+                  <img src="images/Instagram.png" class="pe-4" alt="">
+                </li>
+                <li class="nav-item">
+                  <img src="images/Twitter.png" class="pe-4" alt="">
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="custom-link navbar navbar-expand-lg bg-body-tertiary w-75  m-auto h-75">
+          <div class="container-fluid bg-secondary texts">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown ">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ps-4 text-black">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item ps-4 text-black">
+                  <a class="nav-link" href="#">All Fixtures</a>
+                </li>
+                <li class="nav-item dropdown ps-4 text-black">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Leagues Around The World
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/bpl.jpg" alt="">Bangladesh Premiere League
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/ipl.jpg"  alt="">Indian Premiere League
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/bigbash.jpg" alt="">Big bash League
+                    </a></li>
+
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+    <!-- Navbar section exit -->
+
+    <!-- card section start  -->
+
+    <section class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="card-deck col-md-6">
+            <div class="card ">
+              <img class="card-img-top" src="images/bangladesh.jpg" alt="Company logo">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-success"><i class="fa fa-briefcase"style="font-size:20px;"></i>   Company</li>
+                  <li class="list-group-item list-group-item-success"><i class="fa fa-user"style="font-size:20px;"></i>   Role</li>
+                  <li class="list-group-item list-group-item-success"><i class="fa fa-map-marker"style="font-size:20px;"></i>   Location</li>
+                  <li class="list-group-item list-group-item-success"><i class="fa fa-clock-o"style="font-size:20px;"></i>   Duration</li>
+                  <li class="list-group-item list-group-item-success"><i class="fa fa-inr"style="font-size:20px;"></i>   Cost</li>
+                </ul>
+                
+              </div>
+      
+              </div>
+              </div>
+              <div class="card col-md-6">
+                <img class="card-img-top" src="images/bangladesh.jpg" alt="Company logo">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-success"><i class="fa fa-briefcase"style="font-size:20px;"></i>   Company</li>
+                    <li class="list-group-item list-group-item-success"><i class="fa fa-user"style="font-size:20px;"></i>   Role</li>
+                    <li class="list-group-item list-group-item-success"><i class="fa fa-map-marker"style="font-size:20px;"></i>   Location</li>
+                    <li class="list-group-item list-group-item-success"><i class="fa fa-clock-o"style="font-size:20px;"></i>   Duration</li>
+                    <li class="list-group-item list-group-item-success"><i class="fa fa-inr"style="font-size:20px;"></i>   Cost</li>
+                  </ul>
+                  
+                </div>
+        
+                </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Statistic About Player</h6>
+            <h3>Past Statistics</h3>
+          </div>
+        </div>
+        <div class="row align-items-center service-item-wrap">
+          <div class="col-lg-7 p-lg-0">
+            <!--Service Area Start-->
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade active show p-5" id="spa" role="tabpanel">
+                <h2>Kit : 75</h2>
+                <h2>Player Roll : </h2>
+                <h2>Average :</h2>
+                <h2>Height :</h2>
+              </div>
+              <div class="tab-pane fade p-5" id="restaurent" role="tabpanel">
+                <h2>Kit : 75</h2>
+                <h2>Player Roll : </h2>
+                <h2>Average :</h2>
+                <h2>Height :</h2>
+              </div>
+              <div class="tab-pane fade p-5" id="swimming" role="tabpanel">
+                <h2>Kit : 75</h2>
+                <h2>Player Roll : </h2>
+                <h2>Average :</h2>
+                <h2>Height :</h2>
+              </div>
+            </div>
+            <!--Service Area End-->
+          </div>
+          <div class="col-lg-5 position-relative">
+            <!--Service Tab Menu Area Start-->
+            <div class="service-menu-area">
+              <ul class="nav">
+                <li>
+                  <a data-bs-toggle="tab" href="#spa" class="active">
+                    <span class="service-icon">
+                      <img src="./images/t20.png" alt="" />
+                    </span>
+                    <h5>T20</h5>
+                    <p>
+                      <span>T20 </span>luptatem quia voluptas sit
+                      aspernatur aut odit aut fugit, sed quia
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a data-bs-toggle="tab" href="#restaurent">
+                    <span class="service-icon">
+                      <img src="./images/Odi.jpeg" alt="" />
+                    </span>
+                    <h5>Odi</h5>
+                    <p>
+                      <span>Odi</span> lup provide grro tatem quia
+                      voluptas sit aspernatur aut odit aut fugit,
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a data-bs-toggle="tab" href="#swimming">
+                    <span class="service-icon">
+                      <img src="./images/test.jpeg" alt="" />
+                    </span>
+                    <h5>Test</h5>
+                    <p>
+                      <span>Test</span> pool luptatem quia voluptas sit
+                      aspernatur aut odit aut fugit, sed quia
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--Service Tab Menu Area End-->
+          </div>
+        </div>
+      </div>
+    
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Hotel Location</h5>
+            <p class="ps-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              dignissim erat ut laoreet pharetra....
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-home me-3"></i> No. 96, South City,
+                    London</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope me-3"></i>info@example.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Demo Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Newsletter</h5>
+            <div class="form-group mb-4">
+              <input
+                type="email"
+                class="form-control bg-transparent"
+                placeholder="enter your email here"
+              />
+              <button
+                type="submit"
+                class="main-btn rounded-2 mt-3 border-white text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright-section">
+        <p>Copyright @Mahamudul Hasan</a> All Rights Reserved</p>
+      </div>
+    </section>
+    <!-- Footer section exit -->
+
+    <!-- Js section  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
